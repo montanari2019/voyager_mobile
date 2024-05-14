@@ -12,18 +12,18 @@ export const styled  = StyleSheet.create({
         padding: 10,
         borderRadius: 15,
         borderWidth: 1,
-        borderColor: THEME_DARK.COLORS.PURPLE_500,
+        borderColor: THEME_DARK.COLORS.BASE_BORDER_500,
         backgroundColor: THEME_DARK.COLORS.BLACK_OPACITY
      
       },
       subTitle: {
         fontSize: THEME_DARK.FONT_SIZE.LG,
         fontWeight: "normal",
-        color: THEME_DARK.COLORS.GRAY_100,
+        color: THEME_DARK.COLORS.BASE_TEXT,
       },
       headerNameTitle: {
         fontSize: THEME_DARK.FONT_SIZE.LG,
         fontWeight: "bold",
-        color: THEME_DARK.COLORS.GRAY_100,
+        color: THEME_DARK.COLORS.BASE_TEXT,
       },
 })

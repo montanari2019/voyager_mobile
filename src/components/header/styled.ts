@@ -12,11 +12,11 @@ export const styled  = StyleSheet.create({
       headerNameSubTitle: {
         fontSize: THEME_DARK.FONT_SIZE.SM,
         fontWeight: "normal",
-        color: THEME_DARK.COLORS.GRAY_100,
+        color: THEME_DARK.COLORS.BASE_TEXT,
       },
       headerNameTitle: {
         fontSize: THEME_DARK.FONT_SIZE.LG,
         fontWeight: "bold",
-        color: THEME_DARK.COLORS.GRAY_100,
+        color: THEME_DARK.COLORS.BASE_TEXT,
       },
 })

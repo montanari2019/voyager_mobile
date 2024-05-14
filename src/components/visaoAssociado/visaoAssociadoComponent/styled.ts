@@ -6,7 +6,7 @@ export const styled  = StyleSheet.create({
 
     textTitle:{
         
-        color: THEME_DARK.COLORS.GRAY_100,
+        color: THEME_DARK.COLORS.BASE_TEXT,
         fontSize: THEME_DARK.FONT_SIZE.XL,
         fontWeight: "bold",
         // flex: 1,
@@ -15,17 +15,17 @@ export const styled  = StyleSheet.create({
     },
 
     textParagraphBold:{
-        color: THEME_DARK.COLORS.GRAY_100,
+        color: THEME_DARK.COLORS.BASE_TEXT,
         fontSize: THEME_DARK.FONT_SIZE.MD,
         fontWeight: 'bold',
     },
     textParagraphRegular:{
-        color: THEME_DARK.COLORS.GRAY_100,
+        color: THEME_DARK.COLORS.BASE_TEXT,
         fontSize: THEME_DARK.FONT_SIZE.LG,
         fontWeight: 'normal',
     },
     textParagraphRegularSm:{
-        color: THEME_DARK.COLORS.GRAY_100,
+        color: THEME_DARK.COLORS.BASE_TEXT,
         fontSize: THEME_DARK.FONT_SIZE.SM,
         fontWeight: 'normal',
     },
@@ -50,7 +50,7 @@ export const styled  = StyleSheet.create({
         padding: 15,
         gap: 25,
         borderWidth: 1,
-        borderColor: THEME_DARK.COLORS.PURPLE_700
+        borderColor: THEME_DARK.COLORS.BASE_BORDER_700
         // alignItems: 'center',
         // justifyContent:'space-between'
     }

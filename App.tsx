@@ -1,5 +1,6 @@
 import { Image, SafeAreaView, StyleSheet, Text, View } from "react-native";
 import backgroundImg from "./src/assets/bg_purple.png";
+import backgroundImg02 from "./src/assets/bg_green.png";
 import { HomeVisaoAssociado } from "./src/screens/home";
 import { THEME_DARK } from "./src/themes/global.theme";
 import { HeaderComponent } from "./src/components/header";
@@ -33,7 +34,7 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: THEME_DARK.COLORS.GRAY_700,
+    backgroundColor: THEME_DARK.COLORS.BASE_BG,
   },
 
   viewContainer:{

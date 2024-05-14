@@ -6,7 +6,7 @@ import { THEME_DARK } from "../../themes/global.theme";
 export function TimerComponent() {
   return (
     <View style={styled.container}>
-     <Ionicons name="timer-outline" size={24} color={THEME_DARK.COLORS.GRAY_100} />
+     <Ionicons name="timer-outline" size={24} color={THEME_DARK.COLORS.BASE_TEXT} />
      <Text style={styled.subTitle}>25:20</Text>
     </View>
   );

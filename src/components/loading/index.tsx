@@ -6,7 +6,7 @@ interface LoadingProps {
   textFild?: boolean;
 }
 
-export function Loading({ color = THEME_DARK.COLORS.PURPLE_500, textFild = false,}: LoadingProps) {
+export function Loading({ color = THEME_DARK.COLORS.BASE_BORDER_500, textFild = false,}: LoadingProps) {
   return (
     <View style={styles.container}>
       <ActivityIndicator color={color} />
