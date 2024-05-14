@@ -5,7 +5,6 @@ export const styled  = StyleSheet.create({
     container:{
        
         flex: 1,
-        marginTop: 15,
         paddingHorizontal: 25,
         width: "100%",
         // backgroundColor: "transparent",
@@ -23,9 +22,7 @@ export const styled  = StyleSheet.create({
         color: THEME_DARK.COLORS.BASE_TEXT,
         fontSize: THEME_DARK.FONT_SIZE.XL,
         fontWeight: "bold",
-        // flex: 1,
-        // alignItems: 'center',
-        // justifyContent: 'center',
+       
     },
 
     textParagraphBold:{
@@ -49,7 +46,7 @@ export const styled  = StyleSheet.create({
 
     viewCard:{
         
-        marginVertical: 50,
+        marginBottom: 50,
         gap: 16,
         alignItems: 'center',
 

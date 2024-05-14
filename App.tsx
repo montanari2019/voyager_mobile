@@ -41,10 +41,7 @@ const styles = StyleSheet.create({
 
   viewContainerPai: {
     marginTop: "10%",
-    // marginHorizontal: 25,
-    // paddingHorizontal: 25,
     flex: 1,
-    // gap: 15,
     width: "100%",
   },
 

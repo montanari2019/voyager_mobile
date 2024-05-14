@@ -25,7 +25,7 @@ export function TableBacenVencer({ data, header }: TableBacenVencerProps) {
     <View style={styled.table}>
       <View style={styled.row}>
         {header.map((item) => {
-          return <Text style={styled.cellHeader}>{item}</Text>;
+          return <Text key={item} style={styled.cellHeader}>{item}</Text>;
         })}
       </View>
 
