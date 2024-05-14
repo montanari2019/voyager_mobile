@@ -9,7 +9,10 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "@expo-google-fonts/asap": "^0.2.3",
+    "@expo/vector-icons": "^14.0.2",
     "expo": "~51.0.5",
+    "expo-blur": "~13.0.2",
     "expo-status-bar": "~1.12.1",
     "react": "18.2.0",
     "react-native": "0.74.1"
