@@ -27,7 +27,7 @@ export function TableEndividamento({ data, header, }: TableEndividamentoProps) {
     <View style={styled.table}>
       <View style={styled.row}>
         {header.map((item) => {
-          return <Text style={styled.cellHeader}>{item}</Text>;
+          return <Text key={item} style={styled.cellHeader}>{item}</Text>;
         })}
       </View>
 

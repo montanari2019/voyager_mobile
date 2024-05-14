@@ -5,12 +5,18 @@ export const styled  = StyleSheet.create({
     container:{
        
         flex: 1,
-        marginTop: 25,
+        marginTop: 15,
+        paddingHorizontal: 25,
         width: "100%",
+        // backgroundColor: "transparent",
         // alignItems: 'center',
         // justifyContent: 'center',
     },
   
+    backgroundImgStyle: {
+        resizeMode: "contain",
+        position: "absolute",
+      },
 
     textTitle:{
         

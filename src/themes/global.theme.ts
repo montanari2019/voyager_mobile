@@ -26,6 +26,7 @@ export const THEME_DARK = {
         
         BASE_TEXT: "#E1E1E6",
         BLACK_OPACITY: "#00000040",
+        BLACK_OPACITY_02: "#00000090",
         GRAY_CARD_OPACITY: "#32323840",
         WHITE: "#FFFFFF",
       },

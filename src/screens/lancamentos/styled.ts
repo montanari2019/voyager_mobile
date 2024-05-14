@@ -4,6 +4,7 @@ import { THEME_DARK } from "../../themes/global.theme";
 export const styled = StyleSheet.create({
   container: {
     flex: 1,
+    paddingHorizontal: 25,
     alignItems: "center",
     justifyContent: "center",
   },
