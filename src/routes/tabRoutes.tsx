@@ -8,6 +8,8 @@ import { HomeVisaoAssociado } from "../screens/home";
 import { Lancamentos } from "../screens/lancamentos";
 import { Endividamento } from "../screens/endividamento";
 import { Sobras } from "../screens/sobras";
+import Ionicons from '@expo/vector-icons/Ionicons';
+
 
 type AuthRoutesProps = {
   home: undefined;
@@ -19,6 +21,7 @@ export type AuthNavigatorRoutesPrivadeProps =
   BottomTabNavigationProp<AuthRoutesProps>;
 
 export function TabRoutes() {
+  const iconSize = 25;
   const { Navigator, Screen } = createBottomTabNavigator<AuthRoutesProps>();
   return (
 //    <View style={{flex: 1}}>
@@ -42,18 +45,40 @@ export function TabRoutes() {
       <Screen
         name="home"
         component={HomeVisaoAssociado}
+        options={{
+          tabBarIcon: ({ color }) => (
+            <Ionicons name="home" size={iconSize} color={color} />
+          ),
+        }}
+
       />
       <Screen
         name="lancamento"
         component={Lancamentos}
+        options={{
+          tabBarIcon: ({ color }) => (
+            <Ionicons name="cash" size={iconSize} color={color} />
+          ),
+        }}
       />
       <Screen
         name="endividamento"
         component={Endividamento}
+        options={{
+          tabBarIcon: ({ color }) => (
+            <Ionicons name="lock-closed" size={iconSize} color={color} />
+          ),
+        }}
+        
       />
       <Screen
         name="sobras"
         component={Sobras}
+        options={{
+          tabBarIcon: ({ color }) => (
+            <Ionicons name="add-circle" size={iconSize} color={color} />
+          ),
+        }}
       />
     </Navigator>
 //    </View>

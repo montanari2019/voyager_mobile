@@ -62,7 +62,6 @@ export const styled  = StyleSheet.create({
         gap: 25,
         borderWidth: 1,
         borderColor: THEME_DARK.COLORS.BASE_BORDER_700
-        // alignItems: 'center',
-        // justifyContent:'space-between'
+     
     }
 })

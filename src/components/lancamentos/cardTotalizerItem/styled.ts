@@ -1,5 +1,5 @@
 import { StyleSheet } from "react-native";
-import { THEME_DARK } from "../../themes/global.theme";
+import { THEME_DARK } from "../../../themes/global.theme";
 
 export const styled = StyleSheet.create({
   container: {
@@ -17,7 +17,7 @@ export const styled = StyleSheet.create({
 
   textParagraphBold: {
     color: THEME_DARK.COLORS.BASE_TEXT,
-    fontSize: THEME_DARK.FONT_SIZE.MD,
+    fontSize: THEME_DARK.FONT_SIZE.SM,
     fontWeight: "bold",
   },
   textParagraphRegular: {
@@ -67,6 +67,19 @@ export const styled = StyleSheet.create({
     width: "45%",
     backgroundColor: THEME_DARK.COLORS.BLACK_OPACITY,
     borderWidth: 1,
+    borderColor: THEME_DARK.COLORS.BASE_BORDER_700,
+    borderRadius: 15,
+    paddingTop: 16,
+    paddingBottom: 7,
+    paddingHorizontal: 5,
+    gap: 16,
+    marginVertical: 10,
+  },
+
+  cardTotalizerAcountActive:{
+    width: "45%",
+    backgroundColor: THEME_DARK.COLORS.BLACK_OPACITY,
+    borderWidth: 1,
     borderColor: THEME_DARK.COLORS.BASE_BORDER_500,
     borderRadius: 15,
     paddingTop: 16,
@@ -76,11 +89,41 @@ export const styled = StyleSheet.create({
     marginVertical: 10,
   },
 
+  cardTotalizerAcountDisable:{
+    width: "45%",
+    backgroundColor: THEME_DARK.COLORS.BLACK_OPACITY,
+    borderWidth: 1,
+    borderColor: THEME_DARK.COLORS.BASE_BORDER_500,
+    borderRadius: 15,
+    paddingTop: 16,
+    paddingBottom: 7,
+    paddingHorizontal: 5,
+    gap: 16,
+    marginVertical: 10,
+    opacity: 0.5,
+  },
+
   cardTotalizerAcountIten:{
     backgroundColor: THEME_DARK.COLORS.GRAY_400,
     borderRadius: 15,
-    padding: 16,
+    paddingHorizontal: 10,
+    paddingVertical: 16,
     gap: 10,
    
-  }
+  },
+
+  cardTotalizerAcountItenActive:{
+    backgroundColor: THEME_DARK.COLORS.PURPLE_700,
+    borderRadius: 15,
+    paddingHorizontal: 10,
+    paddingVertical: 16,
+    gap: 10,
+  },
+  cardTotalizerAcountItenDisable:{
+    backgroundColor: THEME_DARK.COLORS.GRAY_400,
+    borderRadius: 15,
+    paddingHorizontal: 10,
+    paddingVertical: 16,
+    gap: 10,
+  },
 });

@@ -3,7 +3,7 @@ import {
   Asap_700Bold,
   useFonts,
 } from "@expo-google-fonts/asap";
-import { Image, StyleSheet, View } from "react-native";
+import { Image, StatusBar, StyleSheet, View } from "react-native";
 import backgroundImg from "./src/assets/bg_purple.png";
 import { HeaderSession } from "./src/components/headerAndInput";
 import { Loading } from "./src/components/loading";
@@ -13,6 +13,11 @@ export default function App() {
   const [fontsLoaded] = useFonts({ Asap_400Regular, Asap_700Bold });
   return (
     <View style={styles.container}>
+      <StatusBar
+        barStyle={"light-content"}
+        backgroundColor="transparent"
+        translucent={true}
+      />
       <Image
         source={backgroundImg}
         defaultSource={backgroundImg}
