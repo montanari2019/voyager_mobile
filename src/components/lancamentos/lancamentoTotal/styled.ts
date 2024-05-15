@@ -16,8 +16,6 @@ export const styled = StyleSheet.create({
   textParagraphBold: {
     color: THEME_DARK.COLORS.BASE_TEXT,
     fontSize: THEME_DARK.FONT_SIZE.SM,
-    paddingHorizontal: 10,
-    width: 200,
     fontWeight: "bold",
   },
   textParagraphRegular: {
@@ -30,7 +28,7 @@ export const styled = StyleSheet.create({
     color: THEME_DARK.COLORS.BASE_TEXT,
     fontSize: THEME_DARK.FONT_SIZE.SM,
     fontWeight: "normal",
-    width: 60,
+    // width: 60,
   },
 
   cardGraphic: {
@@ -72,5 +70,15 @@ export const styled = StyleSheet.create({
     width: "100%",
     flexDirection: "row",
     marginVertical: 25,
+  },
+  resumoMovimentacao: {
+    gap: 25,
+    marginVertical: 20,
+    alignItems: "center",
+  },
+
+  itemMovimentacao: {
+    gap: 5,
+    alignItems: "center",
   },
 });

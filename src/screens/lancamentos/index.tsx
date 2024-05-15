@@ -6,8 +6,8 @@ import { GraphicTotalLancamento } from "../../components/lancamentos/lancamentoT
 
 export function Lancamentos() {
   return (
-    <ScrollView style={styled.container}>
-      <Text style={styled.textTitle}>Lancamentos</Text>
+    <ScrollView style={styled.container} showsVerticalScrollIndicator={false}>
+      <Text style={styled.textTitle}>Lançamentos</Text>
 
         <View style={styled.cardTotalizer}>
         <Text style={styled.textParagraphRegular}>Total de Movimentação</Text>

@@ -9,7 +9,7 @@ import { BacenVencer } from "../../components/visaoAssociado/bacenVencer";
 
 export function HomeVisaoAssociado() {
   return (
-    <ScrollView contentContainerStyle={{ flexGrow: 1 }}>
+    <ScrollView contentContainerStyle={{ flexGrow: 1 }} showsVerticalScrollIndicator={false}>
      
       <SafeAreaView style={styled.container}>
         
