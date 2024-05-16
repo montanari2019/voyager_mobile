@@ -28,13 +28,16 @@ export function TabRoutes() {
      <Navigator
       screenOptions={{
         headerShown: false,
-        tabBarShowLabel: false,
+        tabBarShowLabel: true,
         tabBarActiveTintColor: THEME_DARK.COLORS.PURPLE_500,
         tabBarInactiveTintColor: THEME_DARK.COLORS.GRAY_200,
+        tabBarLabelStyle:{
+          paddingTop: 5
+        },
         tabBarStyle: {
           backgroundColor: THEME_DARK.COLORS.BLACK_OPACITY_02,
           borderTopWidth: 0,
-          height: Platform.OS === "android" ? "auto" : 96,
+          height: 100,
           paddingBottom: 36,
           paddingTop: 25,
           
@@ -49,6 +52,7 @@ export function TabRoutes() {
           tabBarIcon: ({ color }) => (
             <Ionicons name="home" size={iconSize} color={color} />
           ),
+         
         }}
 
       />

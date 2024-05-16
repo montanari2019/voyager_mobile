@@ -4,6 +4,7 @@ import { styled } from "./styled";
 import { ButtonInterval } from "../buttonInverval";
 import { GraphicBarComponent } from "../graphicBar";
 import { priceFromatter } from "../../../utils/formate";
+import { dataGraphsDefaultComplete } from '../../../utils/objects'
 
 interface TotalizerAcountProps extends TouchableOpacityProps {
   disabled?: boolean;
@@ -27,7 +28,12 @@ export function GraphicTotalLancamento() {
       </View>
 
       <View style={{ width: "100%" }}>
-        <GraphicBarComponent />
+        <GraphicBarComponent 
+          categories={dataGraphsDefaultComplete.categories}
+          dataGraph={dataGraphsDefaultComplete.series.data}
+          
+        
+        />
       </View>
 
       <View style={styled.resumoMovimentacao}>

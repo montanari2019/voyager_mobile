@@ -9,6 +9,7 @@ import { HeaderSession } from "./src/components/headerAndInput";
 import { Loading } from "./src/components/loading";
 import { Routes } from "./src/routes";
 import { THEME_DARK } from "./src/themes/global.theme";
+import { Background } from "./src/components/background";
 export default function App() {
   const [fontsLoaded] = useFonts({ Asap_400Regular, Asap_700Bold });
   return (
@@ -18,11 +19,13 @@ export default function App() {
         backgroundColor="transparent"
         translucent={true}
       />
-      <Image
+
+      <Background/>
+      {/* <Image
         source={backgroundImg}
         defaultSource={backgroundImg}
         style={styles.backgroundImgStyle}
-      />
+      /> */}
 
       {fontsLoaded ? (
         <View style={styles.viewContainerPai}>

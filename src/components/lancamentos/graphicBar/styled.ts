@@ -60,8 +60,9 @@ export const styled = StyleSheet.create({
   graphicItemChildren: {
     height: 25,
     justifyContent: "center",
+    // marginLeft: 5,
     // alignItems: "",
-    backgroundColor: THEME_DARK.COLORS.BASE_BORDER_500,
+    // backgroundColor: THEME_DARK.COLORS.BASE_BORDER_500,
     borderTopRightRadius: 5,
     borderBottomRightRadius: 5,
   },

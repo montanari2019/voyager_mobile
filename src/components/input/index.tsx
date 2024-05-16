@@ -6,9 +6,10 @@ import { useState } from "react";
 
 interface InputComponentProps extends TextInputProps {
   disabled?: boolean;
+  label: string
 }
 
-export function InputComponent({ disabled = false, ...resto}: InputComponentProps) {
+export function InputComponent({ label,disabled = false, ...resto}: InputComponentProps) {
 
   const [isFocused, setIsFocused] = useState(false);
 
@@ -30,7 +31,7 @@ export function InputComponent({ disabled = false, ...resto}: InputComponentProp
 
   return (
     <>
-      <Text style={styled.label}>Digite o CPF /CNPJ para pesquisar</Text>
+      <Text style={styled.label}>{label}</Text>
       <TextInput
         onFocus={handleFocus}
         onBlur={handleBlur}

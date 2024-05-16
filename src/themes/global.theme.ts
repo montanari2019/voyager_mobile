@@ -4,6 +4,7 @@ export const THEME_DARK = {
 
         GREEN_700: "#008278",
         GREEN_500: "#03B8AA",
+        GREEN_300: "#619412",
 
         PURPLE_500: "#6C5AEF",
         PURPLE_700: "#4A4091",
@@ -28,6 +29,7 @@ export const THEME_DARK = {
         BLACK_OPACITY: "#00000040",
         BLACK_OPACITY_02: "#00000090",
         GRAY_CARD_OPACITY: "#32323840",
+        GRAY_CARD_OPACITY_02: "#7C7C8A40",
         WHITE: "#FFFFFF",
       },
     

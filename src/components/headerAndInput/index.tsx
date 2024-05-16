@@ -8,7 +8,7 @@ export function HeaderSession() {
       <HeaderComponent />
 
       <View>
-      <InputComponent keyboardType="default" placeholder="000.000.000-00" />
+      <InputComponent label="Digite o CPF /CNPJ para pesquisar" keyboardType="default" placeholder="000.000.000-00" />
 
       </View>
     </View>

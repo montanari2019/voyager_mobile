@@ -18,22 +18,3 @@ export function Routes() {
 }
 
 
-const styles = StyleSheet.create({
-    container: {
-      flex: 1,
-      backgroundColor: THEME_DARK.COLORS.BASE_BG,
-    },
-  
-    viewContainer:{
-      paddingHorizontal: 25,
-      flex: 1,
-      // gap: 15,
-      width: "100%",
-    },
-  
-  
-    backgroundImgStyle: {
-      resizeMode: "contain",
-      position: "absolute",
-    },
-  });
