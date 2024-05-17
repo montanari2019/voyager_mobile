@@ -7,8 +7,12 @@ export function RiscoCrlBacen() {
   return (
     <View style={styled.container}>
       <Text style={styled.textTitle}>Risco CRL</Text>
+        <TableRisco
+          data={riscoCollection}
+          header={["Mês referencia", "Risco Bacen", "Risco CRL"]}
+        />
 
-      <TableRisco data={riscoCollection} header={["Mês referencia", "Risco Bacen", "Risco CRL"]}/> 
+   
     </View>
   );
 }

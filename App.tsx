@@ -23,14 +23,14 @@ export default function App() {
       <Background />
       
       {fontsLoaded ? (
-        <ScrollView contentContainerStyle={{ flexGrow: 1 }} onMomentumScrollEnd={() => console.log("novo teste 01")}  >
+        // <ScrollView contentContainerStyle={{ flexGrow: 1 }} onMomentumScrollEnd={() => console.log("novo teste 01")}  >
           <View style={styles.viewContainerPai}>
             <View style={styles.viewContainer}>
               <HeaderSession />
             </View>
             <Routes />
           </View>
-        </ScrollView>
+        // </ScrollView>
       ) : (
         <Loading textFild />
       )}

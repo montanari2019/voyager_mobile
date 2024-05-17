@@ -10,7 +10,9 @@ export const styled = StyleSheet.create({
     borderRadius: 10,
     marginVertical: 25,
     padding: 25,
-    gap: 10,
+    gap: 20,
+    // alignItems: "center",
+    // justifyContent: "space-between",
 
   },
 

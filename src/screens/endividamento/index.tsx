@@ -1,6 +1,8 @@
 import { ScrollView, Text, View } from "react-native";
 import { styled } from "./styled";
 import { RiscoCrlBacen } from "../../components/endividamento/riscoCrlBacen";
+import { EndividamentoPeríodo } from "../../components/endividamento/endividamentoPeriodo";
+import { EndividamentoUmAno } from "../../components/endividamento/endividamentoUmAno";
 
 export function Endividamento(){
     return(
@@ -8,6 +10,11 @@ export function Endividamento(){
             <Text style={styled.textTitle}>Endividamento</Text>
 
            <RiscoCrlBacen/>
+
+           <EndividamentoPeríodo/>
+
+
+           <EndividamentoUmAno/>
         </ScrollView>
     )
 }

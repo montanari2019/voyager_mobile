@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react";
 import { ScrollView, Text, View } from "react-native";
-import { calcularLarguraValores } from "../../../utils/generateItemGraph";
+import { calcularLarguraValores } from "../../utils/generateItemGraph";
 import { styled } from "./styled";
-import { priceFromatter } from "../../../utils/formate";
-import { THEME_DARK } from "../../../themes/global.theme";
+import { priceFromatter } from "../../utils/formate";
+import { THEME_DARK } from "../../themes/global.theme";
 
 
 

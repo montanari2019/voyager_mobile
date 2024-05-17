@@ -707,5 +707,23 @@ export const riscoCollection = [
     nivel_risco_crl: "R3",
   },
 ];
+
+export const graphicIndiceEndividamento = {
+  cpf_cnpj: "00887957218",
+  ultima_data_base: "2024-03-01T08:00:00.000Z",
+  categories: [
+    "1° ano",
+    "2° anos",
+    "3° anos",
+    "4° anos",
+    "5° anos",
+    "6° até 15° anos",
+    "Acima 15°anos",
+  ],
+  series: {
+    name: "Endividamento por período",
+    data: [19862.5, 10585.25, 8794.93, 765.45, 100, 0, 0],
+  },
+};
 type headerSelectProps = typeof headerSelectLancamento;
 type graphicProps = typeof dataGraphsPropsType;

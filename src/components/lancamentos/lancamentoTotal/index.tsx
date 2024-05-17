@@ -2,7 +2,7 @@ import { Text, TouchableOpacityProps, View } from "react-native";
 import { styled } from "./styled";
 
 import { ButtonInterval } from "../buttonInverval";
-import { GraphicBarComponent } from "../graphicBar";
+import { GraphicBarComponent } from "../../graphicBar";
 import { priceFromatter } from "../../../utils/formate";
 import { dataGraphsDefaultComplete } from '../../../utils/objects'
 

@@ -1,5 +1,5 @@
 import { StyleSheet } from "react-native";
-import { THEME_DARK } from "../../../themes/global.theme";
+import { THEME_DARK } from "../../themes/global.theme";
 
 export const styled = StyleSheet.create({
   container: {
@@ -30,6 +30,7 @@ export const styled = StyleSheet.create({
     color: THEME_DARK.COLORS.BASE_TEXT,
     fontSize: THEME_DARK.FONT_SIZE.SM,
     fontWeight: "normal",
+    lineHeight: 20,
     width: 60
   },
 

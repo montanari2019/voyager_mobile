@@ -1,6 +1,6 @@
 import { Text, View } from "react-native";
 import { CardItemComponent } from "../itemCard";
-import { GraphicBarComponent } from "../../graphicBar";
+import { GraphicBarComponent } from "../../../graphicBar";
 import { dataGraphsDefaultSeries } from "../../../../utils/objects";
 import { styled } from "./styled";
 import { THEME_DARK } from "../../../../themes/global.theme";

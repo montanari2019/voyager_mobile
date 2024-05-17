@@ -32,7 +32,8 @@ export function TabRoutes() {
         tabBarActiveTintColor: THEME_DARK.COLORS.PURPLE_500,
         tabBarInactiveTintColor: THEME_DARK.COLORS.GRAY_200,
         tabBarLabelStyle:{
-          paddingTop: 5
+          paddingTop: 5,
+          textTransform: 'capitalize'
         },
         tabBarStyle: {
           backgroundColor: THEME_DARK.COLORS.BLACK_OPACITY_02,
@@ -75,7 +76,7 @@ export function TabRoutes() {
         }}
         
       />
-      <Screen
+      {/* <Screen
         name="sobras"
         component={Sobras}
         options={{
@@ -83,7 +84,7 @@ export function TabRoutes() {
             <Ionicons name="add-circle" size={iconSize} color={color} />
           ),
         }}
-      />
+      /> */}
     </Navigator>
 //    </View>
   );

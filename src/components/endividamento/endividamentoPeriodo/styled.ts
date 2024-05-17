@@ -10,7 +10,9 @@ export const styled = StyleSheet.create({
     borderRadius: 10,
     marginVertical: 25,
     padding: 25,
-    gap: 10,
+    gap: 20,
+    alignItems: "center",
+    justifyContent: "space-between",
 
   },
 
@@ -18,7 +20,7 @@ export const styled = StyleSheet.create({
     color: THEME_DARK.COLORS.BASE_TEXT,
     fontSize: THEME_DARK.FONT_SIZE.MD,
     fontWeight: "bold",
-    textAlign: "center"
+    // textAlign: "center"
   },
 
   textParagraphBold: {
