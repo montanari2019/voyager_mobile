@@ -388,4 +388,324 @@ export const lancamentoDescricao = [
   },
 ];
 
+export const headerSelectLancamento = [
+  {
+    // cpf_cnpj: "00887957218",
+    data_movimento: "2024-03-01T08:00:00.000Z",
+    mes_ref: "2024-03",
+  },
+  {
+    // cpf_cnpj: "00887957218",
+    data_movimento: "2024-02-01T08:00:00.000Z",
+    mes_ref: "2024-02",
+  },
+  {
+    // cpf_cnpj: "00887957218",
+    data_movimento: "2024-01-01T12:00:00.000Z",
+    mes_ref: "2024-01",
+  },
+  {
+    // cpf_cnpj: "00887957218",
+    data_movimento: "2023-12-01T12:00:00.000Z",
+    mes_ref: "2023-12",
+  },
+  {
+    // cpf_cnpj: "00887957218",
+    data_movimento: "2023-11-01T12:00:00.000Z",
+    mes_ref: "2023-11",
+  },
+  {
+    // cpf_cnpj: "00887957218",
+    data_movimento: "2023-10-01T12:00:00.000Z",
+    mes_ref: "2023-10",
+  },
+  {
+    // cpf_cnpj: "00887957218",
+    data_movimento: "2023-09-01T12:00:00.000Z",
+    mes_ref: "2023-09",
+  },
+  {
+    // cpf_cnpj: "00887957218",
+    data_movimento: "2023-08-01T12:00:00.000Z",
+    mes_ref: "2023-08",
+  },
+  {
+    // cpf_cnpj: "00887957218",
+    data_movimento: "2023-07-01T12:00:00.000Z",
+    mes_ref: "2023-07",
+  },
+  {
+    // cpf_cnpj: "00887957218",
+    data_movimento: "2023-06-01T12:00:00.000Z",
+    mes_ref: "2023-06",
+  },
+  {
+    // cpf_cnpj: "00887957218",
+    data_movimento: "2023-05-01T12:00:00.000Z",
+    mes_ref: "2023-05",
+  },
+  {
+    // cpf_cnpj: "00887957218",
+    data_movimento: "2023-04-01T12:00:00.000Z",
+    mes_ref: "2023-04",
+  },
+  {
+    // cpf_cnpj: "00887957218",
+    data_movimento: "2023-03-01T12:00:00.000Z",
+    mes_ref: "2023-03",
+  },
+  {
+    // cpf_cnpj: "00887957218",
+    data_movimento: "2023-02-01T12:00:00.000Z",
+    mes_ref: "2023-02",
+  },
+  {
+    // cpf_cnpj: "00887957218",
+    data_movimento: "2023-01-01T12:00:00.000Z",
+    mes_ref: "2023-01",
+  },
+  {
+    // cpf_cnpj: "00887957218",
+    data_movimento: "2022-12-01T12:00:00.000Z",
+    mes_ref: "2022-12",
+  },
+  {
+    // cpf_cnpj: "00887957218",
+    data_movimento: "2022-11-01T12:00:00.000Z",
+    mes_ref: "2022-11",
+  },
+  {
+    // cpf_cnpj: "00887957218",
+    data_movimento: "2022-10-01T12:00:00.000Z",
+    mes_ref: "2022-10",
+  },
+  {
+    // cpf_cnpj: "00887957218",
+    data_movimento: "2022-09-01T12:00:00.000Z",
+    mes_ref: "2022-09",
+  },
+  {
+    // cpf_cnpj: "00887957218",
+    data_movimento: "2022-08-01T12:00:00.000Z",
+    mes_ref: "2022-08",
+  },
+  {
+    // cpf_cnpj: "00887957218",
+    data_movimento: "2022-07-01T12:00:00.000Z",
+    mes_ref: "2022-07",
+  },
+  {
+    // cpf_cnpj: "00887957218",
+    data_movimento: "2022-06-01T12:00:00.000Z",
+    mes_ref: "2022-06",
+  },
+  {
+    // cpf_cnpj: "00887957218",
+    data_movimento: "2022-05-01T12:00:00.000Z",
+    mes_ref: "2022-05",
+  },
+  {
+    // cpf_cnpj: "00887957218",
+    data_movimento: "2022-04-01T12:00:00.000Z",
+    mes_ref: "2022-04",
+  },
+  {
+    // cpf_cnpj: "00887957218",
+    data_movimento: "2022-03-01T12:00:00.000Z",
+    mes_ref: "2022-03",
+  },
+  {
+    // cpf_cnpj: "00887957218",
+    data_movimento: "2022-02-01T12:00:00.000Z",
+    mes_ref: "2022-02",
+  },
+  {
+    // cpf_cnpj: "00887957218",
+    data_movimento: "2022-01-01T12:00:00.000Z",
+    mes_ref: "2022-01",
+  },
+  {
+    // cpf_cnpj: "00887957218",
+    data_movimento: "2021-12-01T12:00:00.000Z",
+    mes_ref: "2021-12",
+  },
+  {
+    // cpf_cnpj: "00887957218",
+    data_movimento: "2021-11-01T12:00:00.000Z",
+    mes_ref: "2021-11",
+  },
+  {
+    // cpf_cnpj: "00887957218",
+    data_movimento: "2021-10-01T12:00:00.000Z",
+    mes_ref: "2021-10",
+  },
+  {
+    // cpf_cnpj: "00887957218",
+    data_movimento: "2021-09-01T12:00:00.000Z",
+    mes_ref: "2021-09",
+  },
+  {
+    // cpf_cnpj: "00887957218",
+    data_movimento: "2021-08-01T12:00:00.000Z",
+    mes_ref: "2021-08",
+  },
+  {
+    // cpf_cnpj: "00887957218",
+    data_movimento: "2021-07-01T12:00:00.000Z",
+    mes_ref: "2021-07",
+  },
+  {
+    // cpf_cnpj: "00887957218",
+    data_movimento: "2021-06-01T12:00:00.000Z",
+    mes_ref: "2021-06",
+  },
+  {
+    // cpf_cnpj: "00887957218",
+    data_movimento: "2021-05-01T12:00:00.000Z",
+    mes_ref: "2021-05",
+  },
+  {
+    // cpf_cnpj: "00887957218",
+    data_movimento: "2021-04-01T12:00:00.000Z",
+    mes_ref: "2021-04",
+  },
+  {
+    // cpf_cnpj: "00887957218",
+    data_movimento: "2021-03-01T12:00:00.000Z",
+    mes_ref: "2021-03",
+  },
+  {
+    // cpf_cnpj: "00887957218",
+    data_movimento: "2021-02-01T12:00:00.000Z",
+    mes_ref: "2021-02",
+  },
+  {
+    // cpf_cnpj: "00887957218",
+    data_movimento: "2021-01-01T12:00:00.000Z",
+    mes_ref: "2021-01",
+  },
+  {
+    // cpf_cnpj: "00887957218",
+    data_movimento: "2020-12-01T12:00:00.000Z",
+    mes_ref: "2020-12",
+  },
+  {
+    // cpf_cnpj: "00887957218",
+    data_movimento: "2020-11-01T12:00:00.000Z",
+    mes_ref: "2020-11",
+  },
+  {
+    // cpf_cnpj: "00887957218",
+    data_movimento: "2020-10-01T12:00:00.000Z",
+    mes_ref: "2020-10",
+  },
+  {
+    // cpf_cnpj: "00887957218",
+    data_movimento: "2020-09-01T12:00:00.000Z",
+    mes_ref: "2020-09",
+  },
+  {
+    // cpf_cnpj: "00887957218",
+    data_movimento: "2020-08-01T12:00:00.000Z",
+    mes_ref: "2020-08",
+  },
+  {
+    // cpf_cnpj: "00887957218",
+    data_movimento: "2020-07-01T12:00:00.000Z",
+    mes_ref: "2020-07",
+  },
+  {
+    // cpf_cnpj: "00887957218",
+    data_movimento: "2020-06-01T12:00:00.000Z",
+    mes_ref: "2020-06",
+  },
+];
+
+export const riscoCollection = [
+  {
+    cpf_cnpj: "00887957218",
+    mes_ref: "2024-03",
+    data_movimento: "2024-03-01T08:00:00.000Z",
+    nivel_risco_bacen: "A",
+    nivel_risco_crl: "R4",
+  },
+  {
+    cpf_cnpj: "00887957218",
+    mes_ref: "2024-02",
+    data_movimento: "2024-02-01T08:00:00.000Z",
+    nivel_risco_bacen: "A",
+    nivel_risco_crl: "R4",
+  },
+  {
+    cpf_cnpj: "00887957218",
+    mes_ref: "2024-01",
+    data_movimento: "2024-01-01T12:00:00.000Z",
+    nivel_risco_bacen: "A",
+    nivel_risco_crl: "R4",
+  },
+  {
+    cpf_cnpj: "00887957218",
+    mes_ref: "2023-12",
+    data_movimento: "2023-12-01T08:00:00.000Z",
+    nivel_risco_bacen: "A",
+    nivel_risco_crl: "R4",
+  },
+  {
+    cpf_cnpj: "00887957218",
+    mes_ref: "2023-11",
+    data_movimento: "2023-11-01T08:00:00.000Z",
+    nivel_risco_bacen: "A",
+    nivel_risco_crl: "R4",
+  },
+  {
+    cpf_cnpj: "00887957218",
+    mes_ref: "2023-10",
+    data_movimento: "2023-10-01T08:00:00.000Z",
+    nivel_risco_bacen: "A",
+    nivel_risco_crl: "R4",
+  },
+  {
+    cpf_cnpj: "00887957218",
+    mes_ref: "2023-09",
+    data_movimento: "2023-09-01T12:00:00.000Z",
+    nivel_risco_bacen: "A",
+    nivel_risco_crl: "R4",
+  },
+  {
+    cpf_cnpj: "00887957218",
+    mes_ref: "2023-08",
+    data_movimento: "2023-08-01T12:00:00.000Z",
+    nivel_risco_bacen: "A",
+    nivel_risco_crl: "R3",
+  },
+  {
+    cpf_cnpj: "00887957218",
+    mes_ref: "2023-07",
+    data_movimento: "2023-07-01T12:00:00.000Z",
+    nivel_risco_bacen: "A",
+    nivel_risco_crl: "R3",
+  },
+  {
+    cpf_cnpj: "00887957218",
+    mes_ref: "2023-06",
+    data_movimento: "2023-06-01T12:00:00.000Z",
+    nivel_risco_bacen: "A",
+    nivel_risco_crl: "R3",
+  },
+  {
+    cpf_cnpj: "00887957218",
+    mes_ref: "2023-05",
+    data_movimento: "2023-05-01T12:00:00.000Z",
+    nivel_risco_bacen: "A",
+    nivel_risco_crl: "R3",
+  },
+  {
+    cpf_cnpj: "00887957218",
+    mes_ref: "2023-04",
+    data_movimento: "2023-04-01T12:00:00.000Z",
+    nivel_risco_bacen: "A",
+    nivel_risco_crl: "R3",
+  },
+];
+type headerSelectProps = typeof headerSelectLancamento;
 type graphicProps = typeof dataGraphsPropsType;

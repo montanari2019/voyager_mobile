@@ -1,16 +1,21 @@
 import { StyleSheet } from "react-native";
-import { THEME_DARK } from "../../themes/global.theme";
+import { THEME_DARK } from "../../../themes/global.theme";
 
 export const styled = StyleSheet.create({
   container: {
     flex: 1,
-    paddingHorizontal: 25,
+    borderWidth: 1,
+    borderColor: THEME_DARK.COLORS.BASE_BORDER_500,
+    backgroundColor: THEME_DARK.COLORS.BLACK_OPACITY,
+    borderRadius: 10,
+    marginVertical: 25,
+    padding: 25,
 
   },
 
   textTitle: {
     color: THEME_DARK.COLORS.BASE_TEXT,
-    fontSize: THEME_DARK.FONT_SIZE.XL,
+    fontSize: THEME_DARK.FONT_SIZE.LG,
     fontWeight: "bold",
   },
 

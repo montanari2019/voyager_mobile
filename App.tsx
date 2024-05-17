@@ -3,7 +3,7 @@ import {
   Asap_700Bold,
   useFonts,
 } from "@expo-google-fonts/asap";
-import { Image, StatusBar, StyleSheet, View } from "react-native";
+import { Image, ScrollView, StatusBar, StyleSheet, View } from "react-native";
 import backgroundImg from "./src/assets/bg_purple.png";
 import { HeaderSession } from "./src/components/headerAndInput";
 import { Loading } from "./src/components/loading";
@@ -20,20 +20,17 @@ export default function App() {
         translucent={true}
       />
 
-      <Background/>
-      {/* <Image
-        source={backgroundImg}
-        defaultSource={backgroundImg}
-        style={styles.backgroundImgStyle}
-      /> */}
-
+      <Background />
+      
       {fontsLoaded ? (
-        <View style={styles.viewContainerPai}>
-          <View style={styles.viewContainer}>
-            <HeaderSession />
+        <ScrollView contentContainerStyle={{ flexGrow: 1 }} onMomentumScrollEnd={() => console.log("novo teste 01")}  >
+          <View style={styles.viewContainerPai}>
+            <View style={styles.viewContainer}>
+              <HeaderSession />
+            </View>
+            <Routes />
           </View>
-          <Routes />
-        </View>
+        </ScrollView>
       ) : (
         <Loading textFild />
       )}

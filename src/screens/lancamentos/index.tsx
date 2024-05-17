@@ -5,11 +5,15 @@ import { TotalizerAcount } from "../../components/lancamentos/cardTotalizerItem"
 import { GraphicTotalLancamento } from "../../components/lancamentos/lancamentoTotal";
 import { CardAnalitico } from "../../components/lancamentos/cardAnalitico";
 import { CardAnaliticoTable } from "../../components/lancamentos/cardAnaliticoTable";
+import { PickerSelect } from "../../components/pickerSelect";
+import { headerSelectLancamento } from "../../utils/objects";
 
 export function Lancamentos() {
   return (
     <ScrollView style={styled.container} showsVerticalScrollIndicator={false}>
       <Text style={styled.textTitle}>Lançamentos</Text>
+
+      <PickerSelect data={headerSelectLancamento}/>
 
       <View style={styled.cardTotalizer}>
         <Text style={styled.textParagraphRegular}>Total de Movimentação</Text>
