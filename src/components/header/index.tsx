@@ -6,7 +6,7 @@ export function HeaderComponent() {
   return (
     <View style={styled.header}>
       <View>
-        <Text style={styled.headerNameSubTitle}>Bem vindo a Voyager Mobile</Text>
+        <Text style={styled.headerNameSubTitle}>Bem vindo a Control Finance</Text>
         <Text style={styled.headerNameTitle}>Ikaro Montanari</Text>
       </View>
 

@@ -12,7 +12,7 @@ export function VisaoAssociado(){
           {/* <Text style={styled.textTitle}>Visão Associado</Text> */}
           <Text style={styled.textParagraphRegular}>Nome</Text>
           <Text style={styled.textParagraphBold} numberOfLines={1}>
-            Friron - Comercio, Distribuicao e Representacao de Frios
+            Empresa - Comercio, Distribuicao e Representacao de Frios
             Rondonia Ltda
           </Text>
         </View>
@@ -20,7 +20,7 @@ export function VisaoAssociado(){
         <View style={styled.viewCardText}>
           <Text style={styled.textParagraphRegular}>CNPJ/CPF</Text>
           <Text style={styled.textParagraphBold} numberOfLines={1}>
-            05.782.891/0001-07
+            05.452.871/0051-07
           </Text>
         </View>
 
